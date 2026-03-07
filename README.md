@@ -72,6 +72,10 @@ Below is the data stored in the config.json.
 
 ## FAQ
 
+### I got "The request is blocked" or "Unable to get daily rate limit" when I run the program.
+
+> This program relies on third-party osu! beatmap mirrors for automated downloads. You are seeing this error because the provider has blocked your request, which usually happens due to regional restrictions, rate limits, or their specific terms of service. As an alternative, you can try using [Collection Manager](https://github.com/Piotrekol/CollectionManager) (CM) by Piotrekol to automate downloads directly from the official osu! website.
+
 ### It says "Retrying" during the download process, am I doing anything wrong?
 
 > It is normal for API requests to sometimes fail due to factors such as rate limiting and internet connection issues. The script has a built-in retrying process that will handle these issues automatically. It is expected to see the "Retrying" message during the download process.
